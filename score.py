@@ -11,3 +11,6 @@ scores = input().split()
 scores = [int(s) for s in scores]
 fail_count = sum(1 for s in scores if s < 60)
 print(fail_count)
+
+print(max(scores))
+print(min(scores))
