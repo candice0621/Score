@@ -12,6 +12,9 @@ scores = [int(s) for s in scores]
 fail_count = sum(1 for s in scores if s < 60)
 print(fail_count)
 
+print(max(scores))
+print(min(scores))
+
 if len(scores) == 0:
     print(0.0)
 else:
